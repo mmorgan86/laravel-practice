@@ -38,9 +38,13 @@
             <button class="btn btn-danger" type="submit">Delete</button>
           </form>
         </td>
+
       </tr>
       @endforeach
     </tbody>
   </table>
+  <td>
+    <a href="{{  route('shares.create') }}" class="btn btn-success">Create New</a>
+  </td>
 </div>
 @endsection
